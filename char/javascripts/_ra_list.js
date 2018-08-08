@@ -48,9 +48,9 @@ arrData[4] = new buildRA('Mastery of Pain','P',3,2,1,1,2,3,3,5,5,7,7,'Increased 
 arrData[5] = new buildRA('Mastery of Blocking','P',3,2,1,1,2,3,3,5,5,7,7,'Increased Block %',0,true,2,'% chance to block','+',false);
 arrData[6] = new buildRA('Mastery of Parrying','P',3,2,1,1,2,3,3,5,5,7,7,'Increased Parry %',0,true,2,'% chance to parry','+',false);
 arrData[7] = new buildRA('Hail of Blows','A',3,3,3,6,10,0,0,0,0,0,0,'Duration based (60s) Increased Attack Speed - 15min RUT',0,true,'5','% attack delay, 15min timer, 60sec duration','-',false);
-arrData[8] = new buildRA('Mastery of Archery','P',3,3,1,3,6,10,14,15,16,17,18,'Increased attack Speed',0,true,3,'% bow attack delay (min 1.5)','-',false);
-arrData[9] = new buildRA('Falcon\'s Eye','P',3,2,1,3,6,10,14,15,16,17,18,'Increased Critical Hit %',0,true,5,'% chance of bow critical','+',false);
-arrData[10]= new buildRA('Dualist\'s Reflexes','P',3,2,1,3,6,10,14,15,16,17,18,'Increased Dual Wield %',0,true,3,'% dual wield chance/dual wield damage','+',false);
+arrData[8] = new buildRA('Mastery of Archery','P',3,3,1,1,2,3,3,5,5,7,7,'Increased attack Speed',0,true,2,'% bow attack delay (min 1.5)','-',false);
+arrData[9] = new buildRA('Falcon\'s Eye','P',3,2,1,1,2,3,3,5,5,7,7,'Increased Critical Hit %',0,true,3,'% chance of bow critical','+',false);
+arrData[10]= new buildRA('Dualist\'s Reflexes','P',3,2,1,1,2,3,3,5,5,7,7,'Increased Dual Wield %',0,true,2,'% dual wield chance/dual wield damage','+',false);
 arrData[11]= new buildRA('Whirling Dervish','A',3,3,3,6,10,0,0,0,0,0,0,'Duration based (60s) Increased Dual Wield % - 15min RUT',0,true,5,'% dual wield chance, 15min timer, 60sec duration','+',false);
 arrData[12]= new buildRA('Bladedance','A',3,3,14,0,0,0,0,0,0,0,0,'Point-blank area effect attack - 30min RUT',0,true,'','PBAE DD, 30min timer','',true);
 
@@ -61,21 +61,21 @@ arrData[16]= new buildRA('Armor of Faith','A',13,3,3,6,10,14,0,0,0,0,0,'Duration
 arrData[17]= new buildRA('Battle Yell','A',13,3,3,6,10,0,0,0,0,0,0,'Point-blank area (350 Radius) effect taunt - 15min RUT',0,true,'','PBAE taunt, 15min timer','',true);
 
 arrData[18]= new buildRA('Augmented Quickness','P',0,0,1,1,2,3,3,5,5,7,7,'Increased Quickness',0,false,4,'qui','+');
-arrData[19]= new buildRA('Dodger','P',18,2,1,3,6,10,14,15,16,17,18,'Increased Evade %',0,true,3,'% chance to evade','+',false);
+arrData[19]= new buildRA('Dodger','P',18,2,1,1,2,3,3,5,5,7,7,'Increased Evade %',0,true,2,'% chance to evade','+',false);
 arrData[20]= new buildRA('Mastery of Stealth','P',18,2,3,6,10,0,0,15,16,17,18,'Increased move speed while stealthed',0,true,5,'% stealthed movement speed','+',false);
 
-arrData[21]= new buildRA('Augmented Acuity','P',0,0,1,3,6,10,14,15,16,17,18,'Increased Acuity',0,false,6,'int','+');
-arrData[22]= new buildRA('Serenity','P',21,2,1,3,6,10,14,15,16,17,18,'Increased Power Regen',0,true,'1','value','',true);
-arrData[23]= new buildRA('Ethereal Bond','P',21,2,1,3,6,10,14,15,16,17,18,'Increased Maximum Power',0,true,3,'% max power','+',false);
-arrData[24]= new buildRA('Wild Arcana','P',21,2,1,3,6,10,14,15,16,17,18,'Increased Critical Spell %',0,true,5,'% chance of duration spell critical','+',false);
-arrData[25]= new buildRA('Wild Healing','P',21,2,1,3,6,10,14,15,16,17,18,'% Chance for Double Heal effect',0,true,5,'% double effect heal','+',false);
-arrData[26] = new buildRA('Wild Minion','P',21,2,1,3,6,10,14,15,16,17,18,'Increased Pet Critical Hit %',0,true,5,'% pet critical hit','+',false);
-arrData[27]= new buildRA('Minion Control','P',26,1,1,3,6,10,14,15,16,17,18,'Reduced Experience taken by pets',0,true,3,'% pet xp taken','-',false);
-arrData[28]= new buildRA('Wild Power','P',21,2,1,3,6,10,14,15,16,17,18,'Increased Damage Spell Critical %',0,true,5,'% damage spell critical','+',false);
-arrData[29]= new buildRA('Mastery of the Art','P',21,3,1,3,6,10,14,15,16,17,18,'Increased Casting Speed',0,true,3,'% casting delay (min 2.0)','-',false);
-arrData[30]= new buildRA('Mastery of Healing','P',21,2,1,3,6,10,14,15,16,17,18,'Increased effect of Healing based spells',0,true,3,'% healing effect','+',false);
-arrData[31]= new buildRA('Mastery of Magery','P',21,2,1,3,6,10,14,15,16,17,18,'Increased effect of Damage based spells',0,true,3,'% DD damage','+',false);
-arrData[32]= new buildRA('Mastery of the Arcane','P',21,2,1,3,6,10,14,15,16,17,18,'Increased effect of Duration based spells',0,true,3,'% chance of buff spell critical','+',false);
+arrData[21]= new buildRA('Augmented Acuity','P',0,0,1,1,2,3,3,5,5,7,7,'Increased Acuity',0,false,4,'int','+');
+arrData[22]= new buildRA('Serenity','P',0,2,1,3,6,10,14,0,0,0,0,'Increased Power Regen',0,false,'1','value','',true);
+arrData[23]= new buildRA('Ethereal Bond','P',21,2,1,1,2,3,3,5,5,7,7,'Increased Maximum Power',0,true,3,'% max power','+',false);
+arrData[24]= new buildRA('Wild Arcana','P',21,2,1,3,2,3,3,5,5,7,7,'Increased Critical Spell %',0,true,3,'% chance of duration spell critical','+',false);
+arrData[25]= new buildRA('Wild Healing','P',21,2,1,1,2,3,3,5,5,7,7,'% Chance for Double Heal effect',0,true,3,'% double effect heal','+',false);
+arrData[26] = new buildRA('Wild Minion','P',21,2,1,1,2,3,3,5,5,7,7,'Increased Pet Critical Hit %',0,true,5,'% pet critical hit','+',false);
+arrData[27]= new buildRA('Minion Control','P',26,1,1,1,2,3,3,5,5,7,7,'Reduced Experience taken by pets',0,true,2,'% pet xp taken','-',false);
+arrData[28]= new buildRA('Wild Power','P',21,2,1,1,2,3,3,5,5,7,7,'Increased Damage Spell Critical %',0,true,3,'% damage spell critical','+',false);
+arrData[29]= new buildRA('Mastery of the Art','P',21,3,1,1,2,3,3,5,5,7,7,'Increased Casting Speed',0,true,3,'% casting delay (min 2.0)','-',false);
+arrData[30]= new buildRA('Mastery of Healing','P',21,2,1,1,2,3,3,5,5,7,7,'Increased effect of Healing based spells',0,true,3,'% healing effect','+',false);
+arrData[31]= new buildRA('Mastery of Magery','P',21,2,1,1,2,3,3,5,5,7,7,'Increased effect of Damage based spells',0,true,3,'% DD damage','+',false);
+arrData[32]= new buildRA('Mastery of the Arcane','P',21,2,1,1,2,3,3,5,5,7,7,'Increased effect of Duration based spells',0,true,3,'% chance of buff spell critical','+',false);
 arrData[33]= new buildRA('Concentration','A',21,3,10,0,0,0,0,0,0,0,0,'Resets Quickcast timer - 15min RUT',0,true,'','Reset quickcast timer, 15min timer','',true);
 arrData[34]= new buildRA('Mastery of Concentration','A',21,3,14,0,0,0,0,0,0,0,0,'Reduced Interruption Chance during 15s - 30min RUT',0,true,'','Immune to interruption, 30min timer, 15sec duration','',true);
 arrData[35]= new buildRA('Majestic Will','A',21,3,6,10,14,0,0,0,0,0,0,'Short Duration (60s) Reduced resist % - 30min RUT',0,true,5,'% resist debuff, 30min timer, 60sec duration','-',false);
@@ -89,7 +89,7 @@ arrData[41]= new buildRA('Avoidance of Magic','P',0,0,1,1,2,3,3,5,5,7,7,'Increas
 arrData[42]= new buildRA('Lifter','P',0,0,1,1,2,3,3,5,5,7,7,'Increase Maximum Carried Weight',0,false,10,'% max carried weight','+',false);
 arrData[43]= new buildRA('Veil Recovery','P',0,0,1,1,2,3,3,5,5,7,7,'Reduced Res Sickness Duration',0,false,10,'% res sick duration','-',false);
 
-arrData[44]= new buildRA('Arrow Salvaging','P',0,0,1,3,6,10,14,15,16,17,18,'Chance to not expend an arrow when firing',0,false,10,'% chance to save arrow','+',false);
+arrData[44]= new buildRA('Arrow Salvaging','P',0,0,1,1,2,3,3,5,5,7,7,'Chance to not expend an arrow when firing',0,false,10,'% chance to save arrow','+',false);
 arrData[45]= new buildRA('See Hidden','P',0,0,8,0,0,0,0,15,16,17,18,'Detect stealthed characters',0,false,'','Auto detect stealthed','',true);
 arrData[46]= new buildRA('Determination','P',0,0,1,1,2,2,2,3,3,4,4,'Reduced duration of mesmerize, stun and snare',0,false,0,'% mez/stun/root duration','-',false);
 
@@ -111,7 +111,7 @@ arrData[58]= new buildRA('Raging Power','A',57,2,10,0,0,0,0,0,0,0,0,' Major Mana
 
 arrData[59]= new buildRA('Purge','A',0,0,10,0,0,0,0,0,0,0,0,'Dispel All Negative Effects - 30min RUT',0,false,'','Dispel Negative Effects, 30min timer','',true);
 arrData[100]= new buildRA('Purge','A',0,0,4,0,0,0,0,0,0,0,0,'Dispel All Negative Effects - 30min RUT',0,false,'','Dispel Negative Effects, 30min timer','',true);
-arrData[60]= new buildRA('Reflex Attack','A',0,0,14,0,0,0,0,'Short Duration counter all melee attacks',0,false,'','?','',true);
+arrData[60]= new buildRA('Reflex Attack','A',0,0,14,0,0,0,0,0,0,0,0,'Short Duration counter all melee attacks',0,false,'','?','',true);
 arrData[61]= new buildRA('Viper','A',0,0,14,0,0,0,0,0,0,0,0,'Short Duration (30s) double damage from all DOTs - 30min RUT',0,false,'','Double damage from poisons, 30min timer, 30sec duration','',true);
 arrData[62]= new buildRA('True Sight','A',0,0,10,0,0,0,0,0,0,0,0,'Short Duration (60s) detect all Hidden - 30min RUT',0,false,'','Detect all stealthed, 30min timer, 60sec duration','',true);
 arrData[63]= new buildRA('Soldier\'s Barricade','A',0,0,10,0,0,0,0,0,0,0,0,'Short Duration (30s) bonus to Group Armor - 30min RUT',0,false,'','Large bonus to group\'s armor factor, 30min timer, 30sec duration, range 1500','',true);
@@ -146,7 +146,7 @@ arrData[91]= new buildRA('Razorback Style','A',0,0,10,0,0,0,0,0,0,0,0,'Powerful 
 
 arrData[92]= new buildRA('Battery of Life','A',0,0,10,0,0,0,0,0,0,0,0,'Battery Heal',0,false,'','','',true);
 arrData[93]= new buildRA('Forestheart Ambusher','A',0,0,10,0,0,0,0,0,0,0,0,'Summons Pet for 3mn',0,false,'','Ground target pet, 3min duration','',true);
-arrData[94]= new buildRA('Unquenchable Thirst of Souls','A',0,0,10,0,0,0,0,0,0,0,0,'PBAE Life tap',0,false,'','','',true);
+arrData[94]= new buildRA('Unquenchable Thirst of Souls','A',0,0,10,0,0,0,0,0,0,0,0,'PBAE Life tap 220 damage (Radius: 350)',0,false,'','','',true);
 arrData[95]= new buildRA('Defender of the Vale','A',0,0,10,0,0,0,0,0,0,0,0,'Group health buffer',0,false,'','Absorbs 50% damage, 500hp max','',true);
 arrData[96]= new buildRA('Strike the Soul','A',0,0,10,0,0,0,0,0,0,0,0,'Resist debuff',0,false,'','25% more difficult to resist caster\'s spells, 60sec duration','',true);
 arrData[97]= new buildRA('Ravager','A',0,0,10,0,0,0,0,0,0,0,0,'Style',0,false,'','???','',true);

@@ -243,6 +243,36 @@
         <table class="skills">
           <!-- SPELLS:-->
           <thead>
+              <th colspan="4" class="skill-header albion"><!-- 
+             --><span class="skill-name">Stealth</span><!-- 
+             --><span class="skill-spec">&nbsp; 
+                  Spec : 
+                  <img onclick="bSkill(119,-1)" src="/public/images/minus.jpg" align="absmiddle"
+                    /><img onclick="bSkill(119,-5)" src="/public/images/minus.jpg" align="absmiddle"
+                    /><input name="SKILL119" id="SKILL119" type="text" class="ibox" value="1" onchange="if (this.value &lt; 1) this.value=1; if (this.value &gt; 50) this.value=50;bSkill(119,0);"
+                    /><img onclick="bSkill(119,5)" src="/public/images/plus.jpg" align="absmiddle"
+                    /><img onclick="bSkill(119,1)" src="/public/images/plus.jpg" align="absmiddle" />
+                  </span><!-- 
+             --><span class="skill-cost">&nbspCost : <span id="COST119">2</span></span><!-- 
+             --><span class="skill-spent">&nbspSpent : <span id="SPENT119">0</span></span><!-- 
+             --></th>
+            </thead>
+            <tbody>
+              <tr>
+                <td><div class="prefix"> </div></td>
+                <td class="line-name">Stealth<div class="line-info-fftrick"><div id="LINEINFO34756" class="line-info"></div></div></td>
+                <td width="70%"><div class="line-desc-fftrick"><div id="LINEDESC34756" class="line-desc"></div></div><div id="LINE34756"></div></td>
+                <td align="right"><div id="LINED34756">&nbsp;</div></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td valign="top"><div id="LINENAME34756"></div></td>
+                <td><div id="LINEDESC34756"></div></td>
+                <td valign="top" align="right"><div id="LINEEFFECT34756"></div></td>
+              </tr>
+            </tbody>
+            <thead>
+          <thead>
             <th colspan="4" class="skill-header albion"><!-- 
            --><span class="skill-name">Instruments</span><!-- 
            --><span class="skill-spec">&nbsp; 
@@ -405,21 +435,6 @@
           </tbody>
             <!-- SPELLS END-->
             <!--SKILLS WITH NO STYLES/SPELLS:-->
-          <thead>
-            <th colspan="4" class="skill-header albion"><!-- 
-           --><span class="skill-name">Stealth</span><!-- 
-            --><span class="skill-spec">
-                Spec : 
-                <img onclick="bSkill(119,-1)" src="/public/images/minus.jpg" align="absmiddle"
-                  /><img onclick="bSkill(119,-5)" src="/public/images/minus.jpg" align="absmiddle"
-                  /><input name="SKILL119" id="SKILL119" type="text" class="ibox" value="1" onchange="if (this.value &lt; 1) this.value=1; if (this.value &gt; 50) this.value=50;bSkill(119,0);"
-                  /><img onclick="bSkill(119,5)" src="/public/images/plus.jpg" align="absmiddle"
-                  /><img onclick="bSkill(119,1)" src="/public/images/plus.jpg" align="absmiddle" />
-                </span><!-- 
-            --><span class="skill-cost">Cost : <span id="COST119">2</span></span><!-- 
-            --><span class="skill-spent">Spent : <span id="SPENT119">0</span></span><!-- 
-           --></th>
-          </thead>
             <!-- END OF SKILLS WITH NO STYLES/SPELLS-->
             <!-- STYLES-->
           <thead>

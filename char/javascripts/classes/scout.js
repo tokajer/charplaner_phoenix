@@ -6,7 +6,7 @@ sSTR[17]=90;sCON[17]=70;sDEX[17]=40;sQUI[17]=40;sINT[17]=60;sPIE[17]=60;sEMP[17]
 sSTR[13]=50;sCON[13]=60;sDEX[13]=70;sQUI[13]=50;sINT[13]=70;sPIE[13]=60;sEMP[13]=60;sCHA[13]=60;
 sSTR[8]=50;sCON[8]=50;sDEX[8]=80;sQUI[8]=60;sINT[8]=60;sPIE[8]=60;sEMP[8]=60;sCHA[8]=60; 
 
-Abilities = new Array(14)		
+Abilities = new Array(13)		
 Abilities[1]=new abilityPT("Staff",0,83,5,0,0,0)
 Abilities[2]=new abilityPT("Slash",0,85,5,1,0,0)
 Abilities[3]=new abilityPT("Thrust",0,89,5,1,0,0)
@@ -14,13 +14,12 @@ Abilities[4]=new abilityPT("Cloth Armor",0,99,7,0,0,0)
 Abilities[5]=new abilityPT("Leather Armor",0,100,7,0,0,0)
 Abilities[6]=new abilityPT("Evade I",0,113,4,0,0,0)
 Abilities[7]=new abilityPT("Stealth",0,119,4,1,0,0)
-Abilities[8]=new abilityPT("Shields",5,97,5,1,0,0)
-Abilities[9]=new abilityPT("Shields (Small)",5,102,7,0,0,0)
-Abilities[10]=new abilityPT("Bow",5,129,5,1,0,0)
+Abilities[8]=new abilityPT("Shields",0,97,5,1,0,0)
+Abilities[9]=new abilityPT("Shields (Small)",0,102,7,0,0,0)
+Abilities[10]=new abilityPT("Bow",0,129,5,1,0,0)
 Abilities[11]=new abilityPT("Studded Armor",10,101,7,0,0,0)
 Abilities[12]=new abilityPT("Evade II",12,114,4,0,0,0)
 Abilities[13]=new abilityPT("Evade III",20,115,4,0,0,0)
-Abilities[14]=new abilityPT("Camouflage",30,182,4,0,0,0)
 	
 //Styles[iStylePT++]=new stylePT(129,"Critical Shot I",3,"Increased Damage","","","2x Normal","","","",0,"")
 //Styles[iStylePT++]=new stylePT(129,"Critical Shot II",6,"Increased Damage","","","1.9x Normal","","","",0,"")

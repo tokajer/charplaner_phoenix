@@ -12,15 +12,15 @@ Abilities[4]=new abilityPT("Cloth Armor",0,99,7,0,0,0)
 Abilities[5]=new abilityPT("Leather Armor",0,100,7,0,0,0)
 Abilities[6]=new abilityPT("Evade I",0,113,4,0,0,0)
 Abilities[7]=new abilityPT("Stealth",0,119,4,1,0,0)
-Abilities[8]=new abilityPT("Instruments",5,5,2,1,0,0)
-Abilities[9]=new abilityPT("Shields (Small)",5,102,7,0,0,0)
+Abilities[8]=new abilityPT("Instruments",0,5,2,1,0,0)
+Abilities[9]=new abilityPT("Shields (Small)",0,102,7,0,0,0)
 Abilities[10]=new abilityPT("Studded Armor",10,101,7,0,0,0)
 Abilities[11]=new abilityPT("Evade II",15,114,4,0,0,0)
 Abilities[12]=new abilityPT("Chain Armor",20,104,7,0,0,0)
 	
-Spells = new Array(58)
+Spells = new Array(67)
 
-Lines = new Array(12);
+Lines = new Array(13);
 
 Lines[5067]=new linePT('Health Regeneration (Group, Song)','Song that increases the group\'s rate of health regeneration, reducing downtime between battles.  Only one song can be sung at a time.',5,0) 
 Spells[1]=new spellPT("Song of Minor Renewal",1,5067,5,"2 HP ",5,"",'700','3.0s','','','6s (pulse)','') 
@@ -92,3 +92,14 @@ Lines[5102]=new linePT('Buff (Group, Ablative Armor)','Adds to your group\'s hit
 Spells[56]=new spellPT("Barrier of Sound",30,5102,5,"25 HP ",5,"",'1500','','','8s','6s (pulse)','') 
 Spells[57]=new spellPT("Shield of Melody",40,5102,5,"40 HP ",5,"",'1500','','','8s','6s (pulse)','') 
 Spells[58]=new spellPT("Wall of Song",50,5102,5,"70 HP ",5,"",'1500','','','8s','6s (pulse)','') 
+Lines[34756]=new linePT('Stealth','Ability to hide and see hidden',119,0) 
+Spells[59]=new spellPT("Mastery of Stealth 1",10,34756,119,"+10% movement speed",119,"",'','','','','','')
+Spells[60]=new spellPT("Mastery of Stealth 2",15,34756,119,"+13% movement speed",119,"",'','','','','','')  
+Spells[61]=new spellPT("Mastery of Stealth 3",20,34756,119,"+16% movement speed",119,"",'','','','','','')  
+Spells[62]=new spellPT("Mastery of Stealth 4",25,34756,119,"+19% movement speed",119,"",'','','','','','')  
+Spells[63]=new spellPT("Mastery of Stealth 5",30,34756,119,"+22% movement speed",119,"",'','','','','','')  
+Spells[64]=new spellPT("Mastery of Stealth 6",35,34756,119,"+25% movement speed",119,"",'','','','','','') 
+Spells[65]=new spellPT("Mastery of Stealth 7",40,34756,119,"+28% movement speed",119,"",'','','','','','')
+Spells[66]=new spellPT("Mastery of Stealth 8",45,34756,119,"+31% movement speed",119,"",'','','','','','')  
+Spells[67]=new spellPT("Mastery of Stealth 9",50,34756,119,"+34% movement speed",119,"",'','','','','','')
+ 
