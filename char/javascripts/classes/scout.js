@@ -13,7 +13,7 @@ Abilities[3]=new abilityPT("Thrust",0,89,5,1,0,0)
 Abilities[4]=new abilityPT("Cloth Armor",0,99,7,0,0,0)
 Abilities[5]=new abilityPT("Leather Armor",0,100,7,0,0,0)
 Abilities[6]=new abilityPT("Evade I",0,113,4,0,0,0)
-Abilities[7]=new abilityPT("Stealth",0,119,4,1,0,0)
+Abilities[7]=new abilityPT("Stealth",5,119,2,1,0,0)
 Abilities[8]=new abilityPT("Shields",0,97,5,1,0,0)
 Abilities[9]=new abilityPT("Shields (Small)",0,102,7,0,0,0)
 Abilities[10]=new abilityPT("Bow",0,129,5,1,0,0)
@@ -38,4 +38,17 @@ Abilities[13]=new abilityPT("Evade III",20,115,4,0,0,0)
 
 Spells = new Array(0)
 
-Lines = new Array(0);
+Lines = new Array(1);
+
+
+Lines[5421]=new linePT('Stealth','Ability to hide and see hidden',119,0) 
+Spells[1]=new spellPT("Mastery of Stealth 1",10,5421,119,"+10% movement speed",119,"",'','','','','','')
+Spells[2]=new spellPT("Mastery of Stealth 2",15,5421,119,"+13% movement speed",119,"",'','','','','','')  
+Spells[3]=new spellPT("Mastery of Stealth 3",20,5421,119,"+16% movement speed",119,"",'','','','','','')  
+Spells[4]=new spellPT("Mastery of Stealth 4",25,5421,119,"+19% movement speed",119,"",'','','','','','')  
+Spells[5]=new spellPT("Mastery of Stealth 5",30,5421,119,"+22% movement speed",119,"",'','','','','','')  
+Spells[6]=new spellPT("Mastery of Stealth 6",35,5421,119,"+25% movement speed",119,"",'','','','','','') 
+Spells[7]=new spellPT("Mastery of Stealth 7",40,5421,119,"+28% movement speed",119,"",'','','','','','')
+Spells[8]=new spellPT("Mastery of Stealth 8",45,5421,119,"+31% movement speed",119,"",'','','','','','')  
+Spells[9]=new spellPT("Mastery of Stealth 9",50,5421,119,"+34% movement speed",119,"",'','','','','','')
+ 
