@@ -88,7 +88,7 @@ Abilities[19]=new abilityPT("Evade VII",50,159,4,0,0,0)
 //Styles[59]=new stylePT(130,"Sif's Revenge",44,"Bleeding","Medium","Medium","Medium Bonus","","","[*] Ice Storm",0,"Does damage to a target over a period of time.  Damage per tick (every 4 seconds) 10 Damage type Body Duration 40 seconds")
 //Styles[60]=new stylePT(130,"Ragnarok",50,"Slowed","Medium","Medium","Medium Bonus","","Low&nbsp;Penalty","Behind target",0,"Decreases the target\'s combat speed.  Duration 20 seconds")
 
-Spells = new Array(41)
+Spells = new Array(50)
 
 Lines = new Array(6);
 
@@ -131,13 +131,22 @@ Spells[31]=new spellPT("Major Enervating Poison",37,143158,143,"-91 STR/CON ",14
 Spells[32]=new spellPT("Greater Enervating Poison",47,143158,143,"-118 STR/CON ",143,"",'','','','','60s','') 
 
 
-Lines[123456]=new linePT('Stealth','Ability to hide',119,0) 
+Lines[123456]=new linePT('Stealth','Ability to hide and see hidden',119,0) 
 Spells[33]=new spellPT("Distraction",5,123456,119,"Distraction",119,"",'','','','','','') 
 Spells[34]=new spellPT("Dangersense",8,123456,119,"Dangersense",119,"",'','','','','','') 
 Spells[35]=new spellPT("Safefall1",10,123456,119,"Safefall1",119,"",'','','','','','') 
-Spells[36]=new spellPT("Detect hidden",16,123456,119,"Detect Hidden",119,"",'','','','','','') 
-Spells[37]=new spellPT("Safefall2",20,123456,119,"Safefall2",119,"",'','','','','','') 
-Spells[38]=new spellPT("Climb walls",25,123456,119,"Climb walls",119,"",'','','','','','') 
-Spells[39]=new spellPT("Safefall3",30,123456,119,"Safefall3",119,"",'','','','','','') 
-Spells[40]=new spellPT("Safefall4",40,123456,119,"Safefall4",119,"",'','','','','','') 
-Spells[41]=new spellPT("Safefall5",50,123456,119,"Safefall5",119,"",'','','','','','') 
+Spells[36]=new spellPT("Mastery of Stealth 1",10,123456,119,"",119,"",'','','','','','+10% movement speed')
+Spells[37]=new spellPT("Mastery of Stealth 2",15,123456,119,"",119,"",'','','','','','+13% movement speed')  
+Spells[38]=new spellPT("Detect hidden",15,123456,119,"Detect Hidden",119,"",'','','','','','') 
+Spells[39]=new spellPT("Safefall2",20,123456,119,"Safefall2",119,"",'','','','','','')
+Spells[40]=new spellPT("Mastery of Stealth 3",20,123456,119,"",119,"",'','','','','','+16% movement speed')  
+Spells[41]=new spellPT("Climb walls",25,123456,119,"Climb walls",119,"",'','','','','','')
+Spells[42]=new spellPT("Mastery of Stealth 4",25,123456,119,"",119,"",'','','','','','+19% movement speed')  
+Spells[43]=new spellPT("Safefall3",30,123456,119,"Safefall3",119,"",'','','','','','')
+Spells[44]=new spellPT("Mastery of Stealth 5",30,123456,119,"",119,"",'','','','','','+22% movement speed')  
+Spells[45]=new spellPT("Safefall4",40,123456,119,"Safefall4",119,"",'','','','','','') 
+Spells[46]=new spellPT("Mastery of Stealth 6",35,123456,119,"",119,"",'','','','','','+25% movement speed') 
+Spells[47]=new spellPT("Mastery of Stealth 7",40,123456,119,"",119,"",'','','','','','+28% movement speed')
+Spells[48]=new spellPT("Mastery of Stealth 8",45,123456,119,"",119,"",'','','','','','+31% movement speed')  
+Spells[49]=new spellPT("Safefall5",50,123456,119,"Safefall5",119,"",'','','','','','') 
+Spells[50]=new spellPT("Mastery of Stealth 9",50,123456,119,"",119,"",'','','','','','+34% movement speed') 

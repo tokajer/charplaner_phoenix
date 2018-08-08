@@ -5,12 +5,12 @@ sSTR[2]=40;sCON[2]=40;sDEX[2]=75;sQUI[2]=75;sINT[2]=70;sPIE[2]=60;sEMP[2]=60;sCH
 sSTR[4]=40;sCON[4]=40;sDEX[4]=80;sQUI[4]=80;sINT[4]=60;sPIE[4]=60;sEMP[4]=60;sCHA[4]=60; 
 sSTR[16]=60;sCON[16]=80;sDEX[16]=50;sQUI[16]=50;sINT[16]=60;sPIE[16]=60;sEMP[16]=60;sCHA[16]=60; 
 
-Abilities = new Array(15)		
+Abilities = new Array(14)		
 Abilities[1]=new abilityPT("Staff",0,83,5,0,0,0)
 Abilities[2]=new abilityPT("Cloth Armor",0,99,7,0,0,0)
 Abilities[3]=new abilityPT("Leather Armor",0,100,7,0,0,0)
 Abilities[4]=new abilityPT("Evade I",0,113,4,0,0,0)
-Abilities[5]=new abilityPT("Stealth",0,119,4,1,0,0)
+Abilities[5]=new abilityPT("Stealth",5,119,2,1,0,0)
 Abilities[6]=new abilityPT("Blades",0,123,5,1,0,0)
 Abilities[7]=new abilityPT("Piercing",0,125,5,1,0,0)
 Abilities[8]=new abilityPT("Shields (Small)",5,102,7,0,0,0)
@@ -20,7 +20,6 @@ Abilities[11]=new abilityPT("Reinforced Armor",10,124,7,0,0,0)
 Abilities[12]=new abilityPT("Celtic Dual",10,147,5,1,0,0)
 Abilities[13]=new abilityPT("Evade II",12,114,4,0,0,0)
 Abilities[14]=new abilityPT("Evade III",25,115,4,0,0,0)
-Abilities[15]=new abilityPT("Camouflage",30,182,4,0,0,0)
 	
 //Styles = new Array(60);
 //Styles[1]=new stylePT(123,"Shining Blade",2,"","High","Starter","","","","",0,"")
@@ -83,9 +82,9 @@ Abilities[15]=new abilityPT("Camouflage",30,182,4,0,0,0)
 //Styles[58]=new stylePT(125,"Dragonspider",44,"Bleeding","Medium","Medium","Medium Bonus","","","[*] Diamondback",0,"Does damage to a target over a period of time.  Damage per tick (every 4 seconds) 10 Damage type Body Duration 40 seconds")
 //Styles[59]=new stylePT(125,"Wyvern's Bite",50,"Bleeding","Medium","High","High Bonus","Low&nbsp;Bonus","","[*] Dragonspider",0,"Does damage to a target over a period of time.  Damage per tick (every 4 seconds) 11 Damage type Body Duration 40 seconds")
 
-Spells = new Array(34)
+Spells = new Array(43)
 
-Lines = new Array(5);
+Lines = new Array(6);
 
 Lines[146003]=new linePT('Shield (Self)','Adds to the recipient\'s Armor Factor (AF), resulting in better protection against some forms of attack. It acts in addition to any armor the target is wearing.',146,0) 
 Spells[1]=new spellPT("Determination",2,146003,146,"12 AF ",146,"6 PP",'','3.0s','','','20m','') 
@@ -126,3 +125,13 @@ Spells[31]=new spellPT("Greater Forest Shadow",16,146153,146,"+150% SPEED 25 sec
 Spells[32]=new spellPT("Forest Spirit",25,146153,146,"+165% SPEED 35 sec ",146,"40 PP",'','','','600s','35s','') 
 Spells[33]=new spellPT("Greater Forest Spirit",34,146153,146,"+180% SPEED 45 sec ",146,"56 PP",'','','','600s','45s','') 
 Spells[34]=new spellPT("Forest Phantom",43,146153,146,"+195% SPEED 50 sec ",146,"72 PP",'','','','600s','50s','') 
+Lines[5422]=new linePT('Stealth','Ability to hide and see hidden',119,0) 
+Spells[35]=new spellPT("Mastery of Stealth 1",10,5422,119,"+10% movement speed",119,"",'','','','','','')
+Spells[36]=new spellPT("Mastery of Stealth 2",15,5422,119,"+13% movement speed",119,"",'','','','','','')  
+Spells[37]=new spellPT("Mastery of Stealth 3",20,5422,119,"+16% movement speed",119,"",'','','','','','')  
+Spells[38]=new spellPT("Mastery of Stealth 4",25,5422,119,"+19% movement speed",119,"",'','','','','','')  
+Spells[39]=new spellPT("Mastery of Stealth 5",30,5422,119,"+22% movement speed",119,"",'','','','','','')  
+Spells[40]=new spellPT("Mastery of Stealth 6",35,5422,119,"+25% movement speed",119,"",'','','','','','') 
+Spells[41]=new spellPT("Mastery of Stealth 7",40,5422,119,"+28% movement speed",119,"",'','','','','','')
+Spells[42]=new spellPT("Mastery of Stealth 8",45,5422,119,"+31% movement speed",119,"",'','','','','','')  
+Spells[43]=new spellPT("Mastery of Stealth 9",50,5422,119,"+34% movement speed",119,"",'','','','','','')
